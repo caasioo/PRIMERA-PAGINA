@@ -56,6 +56,76 @@ Música
     </pre>
 </div>
 
+<hr>
+
+<section>
+    <h2>¿Qué significa el arte para ti?</h2>
+
+    <form>
+
+        <p>
+            <label for="nombre">¿Quién eres?</label>
+            <br>
+            <input type="text"
+                   id="nombre"
+                   name="nombre"
+                   placeholder="Escribe tu nombre">
+        </p>
+
+        <p>
+            <label for="arte">Elige tu forma de arte favorita:</label>
+            <br>
+
+            <select id="arte" name="arte">
+                <option value="musica">Música</option>
+                <option value="pintura">Pintura</option>
+                <option value="cine">Cine</option>
+                <option value="fotografia">Fotografía</option>
+                <option value="danza">Danza</option>
+                <option value="teatro">Teatro</option>
+                <option value="literatura">Literatura</option>
+                <option value="otro">Otro</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="porque">¿Por qué es tu forma de arte favorita?</label>
+            <br>
+
+            <textarea
+                id="porque"
+                name="porque"
+                rows="5"
+                cols="40"
+                placeholder="Cuéntame por qué te gusta..."></textarea>
+        </p>
+
+        <p>
+            ¿Creas algún tipo de arte?
+            <br>
+
+            <input type="radio"
+                   id="si"
+                   name="crea_arte"
+                   value="si">
+
+            <label for="si">Sí</label>
+
+            <input type="radio"
+                   id="no"
+                   name="crea_arte"
+                   value="no">
+
+            <label for="no">No</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </p>
+
+    </form>
+</section>
 <footer>
 
     <p>Gracias por visitar mi página.</p>
